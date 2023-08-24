@@ -34,7 +34,7 @@ function addTilde($string)
 
 $serverName = "ASEK-PC\SQLEXPRESS";
 // Connect MS SQL
-$connectionInfo = array(  "Database"=>"pusbasacek", "UID"=>"sa", "PWD"=>"asekmasuk");
+$connectionInfo = array(  "Database"=>"pusbasacek", "UID"=>"sa", "PWD"=>"");
 $mssql_connect = sqlsrv_connect( $serverName, $connectionInfo);
 if( $connectionInfo ) {
      echo "Connection established.<br />";
